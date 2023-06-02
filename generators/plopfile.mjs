@@ -10,7 +10,7 @@ export default function (plop) {
             {
                 type: 'confirm',
                 name: 'useProps',
-                message: 'Vai usar type para as propriedades?'
+                message: 'Vai usar type para as propriedades do componente?'
             },
         ],
         actions: [

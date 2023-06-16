@@ -10,7 +10,8 @@
     "test:watch": "npm run jest --watch",
     "storybook": "storybook dev -s ../src/public -p 6006",
     "build-storybook": "storybook build -s ../src/public",
-    "generate": "plop --plopfile ./generators/plopfile.mjs"
+    "generate": "plop --plopfile ./generators/plopfile.mjs",
+    "generate:t": "plop --plopfile ./generators/template.mjs"
   },
   "dependencies": {
     "next": "13.4.3",

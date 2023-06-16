@@ -1,9 +1,9 @@
-import { Main } from "../components";
+import { Home } from "../templates";
 
-export default function Home() {
+export default function Index() {
   return (
     <>
-      <Main title="Titulo" description="next"/>
+      <Home/>
     </>
   )
 }

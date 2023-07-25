@@ -4,7 +4,10 @@ export const theme = {
         gutter: '3.2rem'
     },
     border: {
-        radius: '0.4rem'
+        radius: {
+            big: '5rem',
+            small: '0.4rem'
+        }
     },
     font: {
         family:
@@ -18,18 +21,19 @@ export const theme = {
             medium: '1.6rem',
             large: '1.8rem',
             xlarge: '2.0rem',
-            xxlarge: '2.8rem'
+            xxlarge: '2.8rem',
+            huge: '5rem'
         }
     },
     colors: {
-        primary: '#F231A5',
-        secondary: '#3CD3C1',
-        mainBg: '#06092B',
-        white: '#FAFAFA',
-        black: '#030517',
-        lightGray: '#EAEAEA',
-        gray: '#8F8F8F',
-        darkGray: '#2E2F42'
+        primary: '#000',
+        secondary: '#000',
+        mainBg: '#000',
+        secondaryBg: '#000',
+        primaryText: '#000',
+        secondaryText: '#000',
+        black: '#000',
+        white: '#fff',
     },
     spacings: {
         xxsmall: '0.8rem',
@@ -46,5 +50,14 @@ export const theme = {
         overlay: 30,
         modal: 40,
         alwaysOnTop: 50
-    }
-}
+    },
+    transition: {
+        default: '0.3s ease-in-out',
+        fast: '0.1s ease-in-out'
+    },
+    breakpoints: {
+        smallHeight: '599px',
+        mediumHeight: '899px',
+        largeHeight: '900px',
+    },
+} as const

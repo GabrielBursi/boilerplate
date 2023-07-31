@@ -14,6 +14,8 @@ Certifique-se de ter as seguintes ferramentas instaladas em seu ambiente de dese
 * react-dom
 * styled-components
 * styled-media-query
+* react-icons
+* redux
 * typescript
 * jest
 * jest-environment-jsdom
